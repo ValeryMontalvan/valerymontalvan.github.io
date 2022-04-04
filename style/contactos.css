@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #3b2504;
+}
+header{
+    width: 1000px;
+    background: #ffffff;
+    margin: auto;
+    overflow: hidden;
+    height: 70px;
+}
+#logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#redes img{
+    vertical-align: middle;
+    margin: 8px;
+    float: right;
+    border-radius: 100%;
+    box-shadow: 0px 0px 0px;
+    width: 30px;
+    margin-top: 20px;
+}
+h3{
+    font-size: 19px;
+    color: #f36056;
+    font-size: 20px;
+    font-family: Tahoma;
+}
+section{
+    background: #ffffff;
+    margin:auto;
+    width: 1000px;
+    padding: 14px;
+}
+p{
+    font-size: 16px;
+    font-family: Arial;
+}
+textarea {
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0px 10px 0px;
+    color: #eb4c3c;
+}
+
+input[type="text"]:focus, input[type="email"]:focus{
+    outline:0 none;
+}
+#contenido{
+    width: 1000px;
+    margin: auto;
+    background: #f8a39f;
+    text-align: center;
+}
+
+/*Estilos para el Nav*/
+nav{
+    width: 1000px;
+    margin: auto;
+    background: #f8a39f;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    font-family: Tahoma;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 20px;
+}
+nav a:hover{
+    background: #abbbdd;
+}
+/*Estilos para el footer*/
+footer {
+    width: 1000px;
+    margin: auto;
+    color: white;
+    background: #f8a39f;
+    padding: 15px;
+}
+footer p{
+    text-align: center;
+    font-family: Tahoma;
+    color: white;
+    font-size: 16px;
+}
+/*Mediaqueris para Tablets*/
+@media only screen and (max-width:980px){
+    footer{
+        width: 100%;
+    }
+    section, header{
+        width: 100%;
+    }
+    #conteiner{
+        width: 80%;
+    }
+    #logo{
+        width: 50%;
+        background: #ffffff;
+    }
+}
+/*Mediaqueris para Celulares*/
+@media only screen and (max-width:480px){
+    h1{
+        color:#f4574b;
+    }
+    #contenido{
+        width: 100%;
+    }
+    section, footer{
+        width: 100%;
+        background: #ffffff;
+    }
+    input[type="submit"]{
+        width: 100%;
+    }
+}

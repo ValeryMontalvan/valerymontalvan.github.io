@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: #3b2504;
+}
+header{
+    width: 1000px;
+    background: #ffffff;
+    margin: auto;
+    overflow: hidden;
+    height: 70px;
+}
+#logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#redes img{
+    vertical-align: middle;
+    margin: 8px;
+    float: right;
+    border-radius: 100%;
+    box-shadow: 0px 0px 0px;
+    width: 30px;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: Tahoma;
+    color: #f36056;
+}
+h3{
+    font-size: 20px;
+    font-family: Arial;
+}
+h4{
+    font-size: 35px;
+    font-family: Tahoma;
+    color: #f36056;
+    margin: 10px;
+    text-align: center;
+}
+h5{
+    font-size: 19px;
+    font-family: Arial;
+    color: #131313;
+    margin: 10px; 
+}
+main img{
+    width: 1000px;
+    display: block;
+    margin: auto;
+} 
+section{
+    width: 1000px;
+    margin: auto;
+    padding: 0px;
+    background: white;
+}
+h6{
+    font-size: 18px;
+    font-family: Arial;
+    color: #eb4c3c;
+    text-align: center;
+    font-style: italic;
+}
+#contenido{
+    width: 1000px;
+    margin: auto;
+    background: #f8a39f;
+    text-align: center;
+}
+
+/*Estilos para el Nav*/
+nav{
+    width: 1000px;
+    margin: auto;
+    background: #f8a39f;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    font-family: Tahoma;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 20px;
+}
+nav a:hover{
+    background: #abbbdd;
+}
+.popular {
+    width: 220px;
+    background: rgb(218, 209, 209);
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+.popular img {
+    width: 100%;
+}
+button {
+    width: 100%;
+    background: black;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+}
+/*Estilos para el footer*/
+footer {
+    width: 1000px;
+    margin: auto;
+    color: white;
+    background: #f8a39f;
+    padding: 15px;
+}
+footer p{
+    text-align: center;
+    font-family: Tahoma;
+    color: white;
+    font-size: 16px;
+}
+/*Mediaqueris para Tablets*/
+@media only screen and (max-width:980px){
+    section, header{
+        width: 100%;
+    }
+    #conteiner{
+        width: 90%;
+    }
+    #logo{
+        width: 50%;
+        background: #ffffff;
+    }
+    footer{
+        width: 100%;
+    }
+}
+/*Mediaqueris para Celulares*/
+@media only screen and (max-width:480px){
+    h1{
+        color:#f4574b;
+    }
+    #contenido{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+        background: #ffffff;
+    }
+    footer{
+        width: 100%;
+    }
+}
